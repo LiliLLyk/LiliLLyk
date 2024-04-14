@@ -1,0 +1,69 @@
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const getUniqueValues = array => [...new Set(array)];
+
+grape - 65
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+32 + 92
+const reverseString = str => str.split("").reverse().join("");
+
+banana - false
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+apple
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+grape
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+39 - false
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+orange + false
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+
+const variableName = getRandomNumber();
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const multiply = (a, b) => a * b;
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+banana + 18,10,98,19,2,18,42,0,14,62,75,16,60,93,88,2,42,36,94,85,20,99,4,91
+const squareRoot = num => Math.sqrt(num);
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const reverseWords = str => str.split(" ").reverse().join(" ");
+orange
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+// This is a comment
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+kiwi / 14
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+orange
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+kiwi
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
+kiwi / orange
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const isEven = num => num % 2 === 0;
+console.log(getRandomString());
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+true / 78,20,38,66,90,3,2,92,49,6,24,54,5,52,8,92,93,62,35,39,62,72,42,13,31,4,27,1,41,20,55,83,69,83,63,27,89,52,94,49,77,30,81,82,97,28,54,81
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+15 - apple
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const multiply = (a, b) => a * b;
